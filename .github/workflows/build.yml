@@ -185,7 +185,7 @@ jobs:
         path: ${{github.workspace}}/libjdk-${{steps.get-version-id.outputs.id}}-macos-aarch64.tar.gz
 
   build-windows-x86_64:
-    runs-on: windows-2025
+    runs-on: windows-2022
 
     steps:
     - name: Get tag or commit id
